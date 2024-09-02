@@ -245,7 +245,7 @@ section:before {
 	flex-direction: column;
 	/* align-items: center; */
 }
-.contact-container form {
+.contact-container {
 	display: flex;
 	flex-direction: column;
 	justify-items: center;
@@ -253,44 +253,7 @@ section:before {
 	align-self: center;
 	text-align: center;
 }
-.form-row label {
-	display: none;
-}
-.form-row {
-	margin: 5px 5px 15px 5px;
-	display: flex;
-}
-.form-row input,
-.form-row textarea {
-	border-radius: 5px;
-	outline: none !important;
-	border: 1px solid var(--contact-form-input-border-color);
-	width: 80vw;
-	min-width: 200px;
-	max-width: 500px;
-	display: flex;
-}
-input[type='text'] {
-	height: 35px;
-}
-input:focus,
-textarea:focus {
-	outline: none !important;
-	border: 2px solid var(--contact-form-focus-border-color);
-}
-.submit {
-	width: 75px;
-	height: 40px;
-	margin: 0 0 15px 5px;
-	text-align: center;
-	align-self: center;
-	text-transform: uppercase;
-	border-radius: 5px;
-	cursor: pointer;
-	border: 1px solid var(--contact-form-submit-border-color);
-	background-color: var(--contact-form-submit-background-color);
-	color: var(--contact-form-submit-font-color);
-}
+
 /*-------CONNECT-------*/
 #connect {
 	padding-bottom: 0 !important;
