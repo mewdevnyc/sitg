@@ -42,7 +42,7 @@ body {
 	padding: 0px;
 	overflow-x: hidden;
 	font-size: 100%;
-	font-family: 'Playfair Display', serif;
+	font-family: 'Montserrat', sans-serif;
 	color: var(--body-text-color);
 	scroll-behavior: smooth;
 }
