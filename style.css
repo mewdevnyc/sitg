@@ -48,17 +48,26 @@ body {
 }
 @media (min-width: 0px) {
 	body {
-		font-size: 1.2rem;
+		font-size: 1rem;
+	}
+	#landing {
+		background-image: url(/imgs/photos/staten-island-therapuetic-gardens-photo-landing-m.webp);
 	}
 }
 @media (min-width: 960px) {
 	body {
 		font-size: 1.3rem;
 	}
+	#landing {
+		background-image: url(/imgs/photos/staten-island-therapuetic-gardens-photo-landing.webp);
+	}
 }
 @media (min-width: 1100px) {
 	body {
-		font-size: 1.4rem;
+		font-size: 1.6rem;
+	}
+	#landing {
+		background-image: url(/imgs/photos/staten-island-therapuetic-gardens-photo-landing.webp);
 	}
 }
 h3 {
@@ -194,16 +203,9 @@ section > div > h2 {
 	color: var(--section-h3-font-color);
 }
 
-section:before {
-	content: '';
-	display: block;
-	height: 3rem;
-}
-
 /*-------LANDING-------*/
 #landing {
-	background-image: url(/imgs/photos/staten-island-therapuetic-gardens-photo-landing.webp);
-	opacity: 0.8;
+	background-repeat: no-repeat;
 }
 .landing-container {
 	display: flex;
@@ -213,17 +215,15 @@ section:before {
 	height: 100vh;
 }
 .landing-intro {
-	width: 80vw;
-	max-width: 8000px;
-	max-height: 50vh;
 	/* TEXT STYLING */
 	text-align: center;
 	overflow: hidden;
 }
 .landing-intro > h1 > span {
-	background-color: #ffffff;
-	margin: 0px;
+	color: #ffffff;
+	margin: 10px;
 	padding: 0.45rem;
+	justify-content: left;
 }
 /*-------ABOUT-------*/
 .about-container {
@@ -231,11 +231,9 @@ section:before {
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
-	height: auto;
-	margin: auto;
 }
 .about-container > p {
-	padding: 2rem;
+	padding: 1.2rem;
 }
 
 /*-------CONTACT-------*/
