@@ -63,14 +63,6 @@ body {
 /*-- -------------------------- -->
 <---     Mobile Navigation      -->
 <--- -------------------------- -*/
-
-body,
-html {
-	/* reset margin and padding so there's no gap between the nav and the screen edges */
-	margin: 0;
-	padding: 0;
-}
-
 /* Mobile - 1023px */
 @media only screen and (max-width: 63.9375rem) {
 	body.cs-open {
@@ -277,7 +269,6 @@ html {
 /*-- -------------------------- -->
 <---     Desktop Navigation     -->
 <--- -------------------------- -*/
-
 /* Small Desktop - 1024px */
 @media only screen and (min-width: 64rem) {
 	#cs-navigation {
@@ -405,7 +396,6 @@ html {
 /*-- -------------------------- -->
 <---            Hero            -->
 <--- -------------------------- -*/
-
 /* Mobile - 360px */
 @media only screen and (min-width: 0rem) {
 	#hero-1946 {
@@ -601,4 +591,58 @@ html {
 		width: 50%;
 		max-width: 39.375rem;
 	}
+}
+
+/*-- -------------------------- -->
+<---            Connect         -->
+<--- -------------------------- -*/
+.connect-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	overflow: hidden;
+}
+.socials {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.connect-item {
+	margin: 20px 40px 20px 40px;
+}
+.connect-item a img {
+	height: 75px;
+	width: 75px;
+}
+/*-- -------------------------- -->
+<---            Contact         -->
+<--- -------------------------- -*/
+.contact-container {
+	display: flex;
+	/* justify-content: center; */
+	flex-direction: column;
+	/* align-items: center; */
+}
+.contact-container {
+	display: flex;
+	flex-direction: column;
+	justify-items: center;
+	align-items: center;
+	align-self: center;
+	text-align: center;
+}
+/*-- -------------------------- -->
+<---            Footer         -->
+<--- -------------------------- -*/
+
+footer {
+	padding: 5px;
+	margin: auto;
+	margin-top: 0;
+	display: flex;
+	justify-content: center;
+	color: rgb(54, 53, 53);
+	font-size: 12px;
+	background-color: var(--footer-background-color);
+	color: var(--footer-font-color);
 }
