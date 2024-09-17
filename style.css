@@ -93,8 +93,8 @@ body {
 		align-items: center;
 	}
 	#cs-navigation .cs-logo {
-		width: 40%;
-		max-width: 9.125rem;
+		width: 25%;
+		max-width: 6.125rem;
 		height: 100%;
 		margin: 0 auto 0 0;
 		padding: 0;
@@ -398,7 +398,7 @@ body {
 <--- -------------------------- -*/
 /* Mobile - 360px */
 @media only screen and (min-width: 0rem) {
-	#hero-1946 {
+	#sitg-landing {
 		padding: var(--sectionPadding);
 		/* 160px - 200px */
 		padding-top: clamp(10rem, 20vw, 12.5rem);
@@ -406,7 +406,7 @@ body {
 		position: relative;
 		z-index: 1;
 	}
-	#hero-1946 .cs-container {
+	#sitg-landing .cs-container {
 		width: 100%;
 		max-width: 80rem;
 		margin: auto;
@@ -416,7 +416,7 @@ body {
 		position: relative;
 		z-index: 1;
 	}
-	#hero-1946 .cs-content {
+	#sitg-landing .cs-content {
 		/* set text align to left if content needs to be left aligned */
 		text-align: center;
 		width: 100%;
@@ -429,18 +429,18 @@ body {
 		position: relative;
 		z-index: 1;
 	}
-	#hero-1946 .cs-flex {
+	#sitg-landing .cs-flex {
 		/* prevents flexbox from squishing it */
 		flex: none;
 	}
-	#hero-1946 .cs-title {
+	#sitg-landing .cs-title {
 		/* 39px - 61px */
 		font-size: clamp(2.438rem, 5vw, 3.813rem);
 	}
-	#hero-1946 .cs-text {
+	#sitg-landing .cs-text {
 		margin-bottom: 1.25rem;
 	}
-	#hero-1946 .cs-button-solid {
+	#sitg-landing .cs-button-solid {
 		font-size: 1rem;
 		font-weight: 700;
 		/* 46px - 56px */
@@ -461,11 +461,11 @@ body {
 		transition: color 0.3s;
 		transition: background-color 0.3s;
 	}
-	#hero-1946 .cs-button-solid:hover {
+	#sitg-landing .cs-button-solid:hover {
 		background-color: #000;
 		color: #fff;
 	}
-	#hero-1946 .cs-picture {
+	#sitg-landing .cs-picture {
 		width: 100%;
 		/* 280px - 510px */
 		height: clamp(17.5rem, 58.6vw, 31.875rem);
@@ -474,14 +474,14 @@ body {
 		display: block;
 		position: relative;
 	}
-	#hero-1946 .cs-picture img {
+	#sitg-landing .cs-picture img {
 		width: 100%;
 		height: 100%;
 		object-fit: cover;
 		border-radius: 2.5rem;
 		position: absolute;
 	}
-	#hero-1946 .cs-card-group {
+	#sitg-landing .cs-card-group {
 		width: 100%;
 		margin: 0;
 		padding: 0;
@@ -491,7 +491,7 @@ body {
 		/* 16px - 20px */
 		gap: clamp(1rem, 2vw, 1.25rem);
 	}
-	#hero-1946 .cs-item {
+	#sitg-landing .cs-item {
 		text-align: center;
 		list-style: none;
 		width: 100%;
@@ -509,27 +509,27 @@ body {
 		z-index: 1;
 		transition: border-color 0.3s;
 	}
-	#hero-1946 .cs-item:hover {
+	#sitg-landing .cs-item:hover {
 		border-color: var(--primary);
 	}
-	#hero-1946 .cs-item:hover .cs-h3 {
+	#sitg-landing .cs-item:hover .cs-h3 {
 		color: var(--primary);
 	}
-	#hero-1946 .cs-item:hover .cs-icon {
+	#sitg-landing .cs-item:hover .cs-icon {
 		transform: rotateY(360deg);
 	}
-	#hero-1946 .cs-icon-picture {
+	#sitg-landing .cs-icon-picture {
 		margin-bottom: 1.25rem;
 		perspective: 700px;
 		transform-style: preserve-3d;
 	}
-	#hero-1946 .cs-icon {
+	#sitg-landing .cs-icon {
 		width: 2.5rem;
 		height: auto;
 		display: block;
 		transition: transform 0.5s;
 	}
-	#hero-1946 .cs-h3 {
+	#sitg-landing .cs-h3 {
 		font-size: 1.25rem;
 		line-height: 1.5em;
 		text-align: inherit;
@@ -538,7 +538,7 @@ body {
 		color: var(--headerColor);
 		transition: color 0.3s;
 	}
-	#hero-1946 .cs-item-text {
+	#sitg-landing .cs-item-text {
 		/* 14px - 16px */
 		font-size: clamp(0.875rem, 1.5vw, 1rem);
 		line-height: 1.5em;
@@ -549,10 +549,10 @@ body {
 }
 /* Tablet - 768px */
 @media only screen and (min-width: 48rem) {
-	#hero-1946 .cs-text {
+	#sitg-landing .cs-text {
 		font-size: 1.25rem;
 	}
-	#hero-1946 .cs-item {
+	#sitg-landing .cs-item {
 		text-align: left;
 		margin: 0;
 		align-items: flex-start;
@@ -561,33 +561,33 @@ body {
 }
 /* Small Desktop - 1024px */
 @media only screen and (min-width: 64rem) {
-	#hero-1946 .cs-content {
+	#sitg-landing .cs-content {
 		display: flex;
 		flex-direction: column;
 	}
-	#hero-1946 .cs-title {
+	#sitg-landing .cs-title {
 		max-width: 46.875rem;
 	}
-	#hero-1946 .cs-item {
+	#sitg-landing .cs-item {
 		grid-column: span 3;
 	}
 }
 /* Large Desktop 1300px */
 @media only screen and (min-width: 81.25rem) {
-	#hero-1946 .cs-title {
+	#sitg-landing .cs-title {
 		margin: 0;
 	}
-	#hero-1946 .cs-container {
+	#sitg-landing .cs-container {
 		flex-direction: column;
 	}
-	#hero-1946 .cs-content {
+	#sitg-landing .cs-content {
 		text-align: left;
 		max-width: 80rem;
 		gap: 1.25rem;
 		flex-direction: row;
 		align-items: flex-start;
 	}
-	#hero-1946 .cs-flex {
+	#sitg-landing .cs-flex {
 		width: 50%;
 		max-width: 39.375rem;
 	}
@@ -632,6 +632,11 @@ body {
 	align-items: center;
 	align-self: center;
 	text-align: center;
+}
+
+.contact-container > span {
+	line-height: 1.5em;
+	font-size: 1.25rem;
 }
 /*-- -------------------------- -->
 <---            Footer         -->
