@@ -24,12 +24,14 @@ function ariaExpanded() {
 }
 
 // mobile nav toggle code
-const dropDowns = Array.from(
-	document.querySelectorAll('#cs-navigation .cs-dropdown')
-);
+const dropDowns = Array.from(document.querySelectorAll('.ul-dropdown li'));
 for (const item of dropDowns) {
+	console.log(dropDowns);
 	const onClick = () => {
-		item.classList.toggle('cs-active');
+		CShamburgerMenu.classList.toggle('cs-active');
+		CSnavbarMenu.classList.toggle('cs-active');
+		CSbody.classList.toggle('cs-open');
+		ariaExpanded();
 	};
 	item.addEventListener('click', onClick);
 }
